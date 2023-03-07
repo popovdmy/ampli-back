@@ -1,0 +1,43 @@
+{
+  "api": {
+    "mylambda": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "myfunction"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "myfunction": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_myfunction_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "myfunction"
+        }
+      ]
+    },
+    "AMPLIFY_function_myfunction_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "myfunction"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-expressmikro-dev-112251-authRole",
+      "UnauthRoleArn": "arn:aws:iam::860533349575:role/amplify-expressmikro-dev-112251-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::860533349575:role/amplify-expressmikro-dev-112251-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-expressmikro-dev-112251-deployment",
+      "UnauthRoleName": "amplify-expressmikro-dev-112251-unauthRole",
+      "StackName": "amplify-expressmikro-dev-112251",
+      "StackId": "arn:aws:cloudformation:us-east-1:860533349575:stack/amplify-expressmikro-dev-112251/a3fb7ed0-bcc9-11ed-abec-0a63a08a6abf",
+      "AmplifyAppId": "d34j0n223zgrqb"
+    },
+    "categories": {
+      "function": {
+        "myfunction": {
+          "deploymentBucketName": "amplify-expressmikro-dev-112251-deployment",
+          "s3Key": "amplify-builds/myfunction-574d7962677569626b76-build.zip"
+        }
+      },
+      "api": {
+        "mylambda": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-expressmikro-dev-112251-authRole",
+      "UnauthRoleArn": "arn:aws:iam::860533349575:role/amplify-expressmikro-dev-112251-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::860533349575:role/amplify-expressmikro-dev-112251-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-expressmikro-dev-112251-deployment",
+      "UnauthRoleName": "amplify-expressmikro-dev-112251-unauthRole",
+      "StackName": "amplify-expressmikro-dev-112251",
+      "StackId": "arn:aws:cloudformation:us-east-1:860533349575:stack/amplify-expressmikro-dev-112251/a3fb7ed0-bcc9-11ed-abec-0a63a08a6abf",
+      "AmplifyAppId": "d34j0n223zgrqb"
+    }
+  },
+  "function": {
+    "myfunction": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda",
+      "lastBuildTimeStamp": "2023-03-07T10:28:18.281Z",
+      "lastBuildType": "PROD",
+      "lastPackageTimeStamp": "2023-03-07T10:28:25.628Z",
+      "distZipFilename": "myfunction-574d7962677569626b76-build.zip",
+      "s3Bucket": {
+        "deploymentBucketName": "amplify-expressmikro-dev-112251-deployment",
+        "s3Key": "amplify-builds/myfunction-574d7962677569626b76-build.zip"
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-expressmikro-dev-112251-deployment/amplify-cfn-templates/function/myfunction-cloudformation-template.json",
+        "logicalId": "functionmyfunction"
+      },
+      "lastPushTimeStamp": "2023-03-07T10:29:48.458Z",
+      "output": {
+        "LambdaExecutionRoleArn": "arn:aws:iam::860533349575:role/expressmikroLambdaRole2d710ba4-dev",
+        "Region": "us-east-1",
+        "Arn": "arn:aws:lambda:us-east-1:860533349575:function:myfunction-dev",
+        "Name": "myfunction-dev",
+        "LambdaExecutionRole": "expressmikroLambdaRole2d710ba4-dev"
+      },
+      "lastPushDirHash": "3w4eDWonc9i6vE8ge7TiO7e3GEY="
+    }
+  },
+  "api": {
+    "mylambda": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "myfunction",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ],
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-expressmikro-dev-112251-deployment/amplify-cfn-templates/api/mylambda-cloudformation-template.json",
+        "logicalId": "apimylambda"
+      },
+      "lastPushTimeStamp": "2023-03-07T10:29:47.704Z",
+      "output": {
+        "ApiName": "mylambda",
+        "RootUrl": "https://3827l0vuo7.execute-api.us-east-1.amazonaws.com/dev",
+        "ApiId": "3827l0vuo7"
+      },
+      "lastPushDirHash": "P5otldWsdrFelsOSpIsoihwFqb0="
+    }
+  }
+}
