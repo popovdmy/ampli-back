@@ -15,7 +15,7 @@
       "function": {
         "myfunction": {
           "deploymentBucketName": "amplify-expressmikro-dev-112251-deployment",
-          "s3Key": "amplify-builds/myfunction-72577741593559536171-build.zip"
+          "s3Key": "amplify-builds/myfunction-48446d57434f6959556c-build.zip"
         }
       },
       "api": {

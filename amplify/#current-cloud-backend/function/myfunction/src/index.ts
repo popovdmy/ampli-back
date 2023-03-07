@@ -10,3 +10,4 @@ export const handler = async (event: APIGatewayEvent, context: Context): Promise
     return awsServerlessExpress.proxy(server, event, context, 'PROMISE').promise;
 };
 
+

@@ -29,7 +29,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-expressmikro-dev-112251-deployment/amplify-cfn-templates/function/myfunction-cloudformation-template.json",
         "logicalId": "functionmyfunction"
       },
-      "lastPushTimeStamp": "2023-03-07T10:59:02.390Z",
+      "lastPushTimeStamp": "2023-03-07T11:00:12.202Z",
       "output": {
         "LambdaExecutionRoleArn": "arn:aws:iam::860533349575:role/expressmikroLambdaRole2d710ba4-dev",
         "Region": "us-east-1",
@@ -37,7 +37,7 @@
         "Name": "myfunction-dev",
         "LambdaExecutionRole": "expressmikroLambdaRole2d710ba4-dev"
       },
-      "lastPushDirHash": "Prt0rlYml9lP/HAO9lxb2D0Bj94="
+      "lastPushDirHash": "XtBOlq/VRxgm6Quf40yoalJ7dJ0="
     }
   },
   "api": {
@@ -58,7 +58,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-expressmikro-dev-112251-deployment/amplify-cfn-templates/api/mylambda-cloudformation-template.json",
         "logicalId": "apimylambda"
       },
-      "lastPushTimeStamp": "2023-03-07T10:58:13.114Z",
+      "lastPushTimeStamp": "2023-03-07T11:00:11.384Z",
       "output": {
         "ApiName": "mylambda",
         "RootUrl": "https://3827l0vuo7.execute-api.us-east-1.amazonaws.com/dev",
