@@ -17,19 +17,19 @@
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda",
-      "lastBuildTimeStamp": "2023-03-07T10:58:43.495Z",
+      "lastBuildTimeStamp": "2023-03-07T12:02:05.082Z",
       "lastBuildType": "PROD",
-      "lastPackageTimeStamp": "2023-03-07T10:58:51.584Z",
-      "distZipFilename": "myfunction-48446d57434f6959556c-build.zip",
+      "lastPackageTimeStamp": "2023-03-07T12:02:13.256Z",
+      "distZipFilename": "myfunction-366a4e35473573484845-build.zip",
       "s3Bucket": {
         "deploymentBucketName": "amplify-expressmikro-dev-112251-deployment",
-        "s3Key": "amplify-builds/myfunction-48446d57434f6959556c-build.zip"
+        "s3Key": "amplify-builds/myfunction-366a4e35473573484845-build.zip"
       },
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-expressmikro-dev-112251-deployment/amplify-cfn-templates/function/myfunction-cloudformation-template.json",
         "logicalId": "functionmyfunction"
       },
-      "lastPushTimeStamp": "2023-03-07T11:00:12.202Z",
+      "lastPushTimeStamp": "2023-03-07T12:03:36.730Z",
       "output": {
         "LambdaExecutionRoleArn": "arn:aws:iam::860533349575:role/expressmikroLambdaRole2d710ba4-dev",
         "Region": "us-east-1",
@@ -37,7 +37,7 @@
         "Name": "myfunction-dev",
         "LambdaExecutionRole": "expressmikroLambdaRole2d710ba4-dev"
       },
-      "lastPushDirHash": "XtBOlq/VRxgm6Quf40yoalJ7dJ0="
+      "lastPushDirHash": "1clfjeyaw/gVvrLrln3yONFBSao="
     }
   },
   "api": {
@@ -58,7 +58,7 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-expressmikro-dev-112251-deployment/amplify-cfn-templates/api/mylambda-cloudformation-template.json",
         "logicalId": "apimylambda"
       },
-      "lastPushTimeStamp": "2023-03-07T11:00:11.384Z",
+      "lastPushTimeStamp": "2023-03-07T12:03:36.020Z",
       "output": {
         "ApiName": "mylambda",
         "RootUrl": "https://3827l0vuo7.execute-api.us-east-1.amazonaws.com/dev",

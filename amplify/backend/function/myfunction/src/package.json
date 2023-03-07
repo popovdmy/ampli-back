@@ -2,7 +2,7 @@
   "name": "myfunction",
   "version": "1.0.1",
   "description": "",
-  "main": "build/index.js",
+  "main": "index.js",
   "scripts": {
     "tsnode": "ts-node index.ts",
     "watch": "tsc -w",
